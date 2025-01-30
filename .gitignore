@@ -1,0 +1,30 @@
+# Maven target directory
+/target/
+
+# TestNG and other test output
+/test-output/
+/surefire-reports/
+/extent-reports/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ files
+.idea/
+*.iml
+
+# Logs
+*.log
+/logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven Dependency Reduction
+**/dependency-reduced-pom.xml
+
+# Environment-specific configuration files
+*.properties
